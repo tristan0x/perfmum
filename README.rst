@@ -2,18 +2,15 @@
 perfmum
 =======
 
-
-Add a short description here!
-
+Takes care of your performance benchmarks ❤
 
 Description
 ===========
 
-A longer description of your project goes here...
+**perfmum** is a set of utilities allowing developers to manage performance
+benchmarks. A benchmark is made of several steps::
 
-
-Note
-====
-
-This project has been set up using PyScaffold 2.5.7. For details and usage
-information on PyScaffold see http://pyscaffold.readthedocs.org/.
+1. build
+2. execution
+3. metrics extraction and archiving
+4. analytics and monitoring
