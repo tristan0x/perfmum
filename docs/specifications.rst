@@ -16,19 +16,19 @@ Use-cases
 
 Micro-benchmarks in CI
 ----------------------
-As a HPC developer, given a C++ library maintained by HPC team, when I
-push a Git changes, then continuous integration
+As a developer, given a C++ library I maintain, when I
+push Git changes, then continuous integration
 executes micro-benchmarks of some critical C++ sections of the library.
 
 Micro-benchmarks CMake helpers
 ------------------------------
-As a HPC developer, given a C++ library built with CMake, **perfmum**
+As a developer, given a C++ library built with CMake, **perfmum**
 provides dedicaded CMake modules to add new micro-benchmarks to the ``test``
 target.
 
 Micro-benchmarks monitoring over time
 -------------------------------------
-As a HPC developer, given a C++ library maintained by HPC team with 
+As a developer, given a C++ library I maintain with
 a micro-benchmark integrated in the continuous integration process, I can
 review the history of metrics of this benchmark in a web browser.
 
@@ -36,12 +36,13 @@ Launch coreneuron simulation
 ----------------------------
 As a HPC developer, I can use **perfmum** to describe a coreneuron simulation
 from the different build configurations to the runtime parameters. **perfmum**
-will take care of the different phases: build, run, and archive results.
+will take care of the different phases: build, run, results extraction
+and archiving, analytics and monitoring.
 
 Simulations for coreneuron UT
 -----------------------------
-As a HPC developer, I can describe the different simulations the continuous
-integration workflow of coreneuron has to use to validate a pull-request.
+As a developer, I can describe the different simulations used by the
+coreneuron continuous integration workflow.
 
 Coreneuron integration tests
 ----------------------------
